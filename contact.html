@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="template.css">
+        <link rel="stylesheet" href="contact.css">
+        <script src="contact.js"></script>
+        <title>Contact</title>
+    </head>
+
+    <body>
+        <div id="container">
+            <header>
+                <p>Kontakt</p>
+            </header>
+            
+            <nav>
+                <ul class="flex-container">
+                    <li><a href=index.html>Home</a></li>
+                    <li><a href=cv.html>CV</a></li>
+                    <li><a href=contact.html>Contact</a></li>      
+                </ul>
+            </nav>
+
+            <main>
+                <h1>Kontakt</h1>
+                <table id="messageTable">
+                    <td>Sie können mich über dieses Formular kontaktieren, mir eine Nachricht per LinkedIn oder einen E-Mail schicken</td>
+                    <td><img src="messageBox.png" alt="Message Box Img"></td>
+                </table>
+                <div class="form">
+                    <form>
+                        <label for="name">Ihr Name:</label><br>
+                        <input type="text" id="name" name="name"><br>
+
+                        <br><label for="messageBox">Ihre Nachricht:</label><br>
+                        <input type="text" id="text" name="messageBox"><br>
+
+                        <br><button type="button" onclick="sendEmail()">Submit</button>
+                    </form>
+                </div>
+            </main>
+
+            <footer>
+                <span>© 2023 Radu-Nicolae Siderias</span>
+            </footer>
+        </div>
+    </body>
+</html>

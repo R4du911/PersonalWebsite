@@ -1,0 +1,53 @@
+main h1 {
+    margin-bottom: 0;
+}
+
+#messageTable{
+    margin-left: 5%;
+    width: 80%;
+}
+
+#messageTable img {
+    padding-left: 70%;
+    width: 45%;
+    height: 45%;
+}
+
+.form {
+    display: inline-block;
+    width: 30%;
+    margin-left: 5%;
+}
+
+input[name="messageBox"] {
+    height: 10vh;
+}
+
+@media only screen and (max-width: 1444px) {
+    .form {
+        margin-top: 6%;
+    }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 500px){
+    .form {
+        margin-top: 3%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    main h1 {
+        font-size: medium;
+    }
+
+    #messageTable td {
+        margin-top: 5%;
+        font-size: small;
+    }
+
+    .form {
+        margin-top: 14%;
+        font-size: small;
+    }
+
+}

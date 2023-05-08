@@ -1,0 +1,123 @@
+.profile_website {
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+}
+
+.profile_website #name {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.profile_website img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15%;
+    margin: 3%;
+}
+
+.profile_website a {
+    padding: 3%;
+    color: black;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: green;
+}
+
+.profile_website a:visited {
+    color: mediumslateblue;
+}
+
+.profile_website a:hover {
+    color: white;
+    background-color: green;
+}
+
+.info {
+    margin-left: 15%;
+    width: 75%;
+    padding-top: 2%;
+}
+
+.info .header {
+    font-size: large;
+    font-weight: bold;
+    color: #11999E;
+}
+
+.info .header td {
+    border-style: none none solid none;
+    border-width: 0.2rem;
+    border-color: #11999E;
+}
+
+.info ul {
+    margin: 2% 20% 2%;
+}
+
+.tabelLimbi, .tabelLimbi td{
+    border: #11999E solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.info .square {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border: #11999E solid;
+    background-color: #11999E;
+}
+
+@media only screen and (max-width: 768px) {
+    .profile_website #name{
+        font-size: medium;
+    }
+
+    .profile_website a {
+        font-size: medium;
+    }
+
+    .info .header {
+        font-size: medium;
+    }
+
+    .info td {
+        font-size: medium;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .profile_website #name {
+        font-size: small;
+    }
+
+    .profile_website a {
+        font-size: 60%;
+    }
+
+    .info .header {
+        font-size: small;
+    }
+
+    .info td {
+        font-size: 50%;
+    }
+
+    .info .header td {
+        border-width: 0.1rem;
+    }
+
+    .info .square {
+        height: 3px;
+        width: 3px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .profile_website a {
+        font-size: 40%;
+    }
+}
